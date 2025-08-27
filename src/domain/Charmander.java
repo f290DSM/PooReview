@@ -1,6 +1,6 @@
 package domain;
 
-public class Pikachu {
+public class Charmander {
     private String nick;
     private int cp;
     private int hp;
@@ -41,8 +41,16 @@ public class Pikachu {
         }
     }
 
-    public void thunderbolt() {
-        System.out.println("Pikachu ataca com thunderbolt!");
+    public void flameThrow() {
+        System.out.println("Charmander ataca com thunderbolt!");
     }
 
+    @Override
+    public String toString() {
+        return "Charmander{" +
+                "nick='" + nick + '\'' +
+                ", cp=" + cp +
+                ", hp=" + hp +
+                '}';
+    }
 }
