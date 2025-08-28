@@ -101,15 +101,21 @@ classDiagram
         +thunderbolt()
     }
 
+    class FightType {
+        <<interface>>
+        +closeCombat()
+    }
+
     
     Pokemon <|-- Blaziken
     Pokemon <|-- Pikachu
     Pokemon <|-- Charmander
     Pokemon <|-- Squartle
     Squartle ..|> WatherType
-    Blaziken ..|> FireType
+    Blaziken ..|> FightType
     Charmander ..|> FireType
     Pikachu ..|> EletricType
+    Blaziken ..|> FireType
     
 ```
 > Os Pokemons Blaziken e Charmander possuem múltiplas formas compartilhando o comportamento dos Pokemons do tipo fogo, além dos atributos e comportamentos comuns à todos os Pokemons
