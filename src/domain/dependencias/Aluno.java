@@ -1,10 +1,11 @@
 package domain.dependencias;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Aluno {
     public String nome;
-    public List<String> conhecimentos;
+    public List<String> conhecimentos = new ArrayList<>();
 
     public Aluno(String nome) {
         this.nome = nome;
