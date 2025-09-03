@@ -1,4 +1,4 @@
-package domain;
+package domain.pokemon;
 
 public class Charmander extends Pokemon {
     public Charmander(String nick, int cp, int hp) {

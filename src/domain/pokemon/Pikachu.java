@@ -1,4 +1,4 @@
-package domain;
+package domain.pokemon;
 
 public class Pikachu extends Pokemon implements EletricType {
     public Pikachu(String nick, int cp, int hp) {

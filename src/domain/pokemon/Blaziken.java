@@ -1,4 +1,4 @@
-package domain;
+package domain.pokemon;
 
 public class Blaziken extends Pokemon {
     public Blaziken(String nick, int cp, int hp) {

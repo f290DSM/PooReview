@@ -1,4 +1,4 @@
-package domain;
+package domain.pokemon;
 
 public class Zapdos extends Pokemon implements FlyingType, EletricType {
     public Zapdos(String nick, int cp, int hp) {

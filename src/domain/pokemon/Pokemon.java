@@ -1,4 +1,4 @@
-package domain;
+package domain.pokemon;
 
 public abstract class Pokemon {
     private String nick;

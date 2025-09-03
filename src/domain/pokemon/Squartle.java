@@ -1,4 +1,4 @@
-package domain;
+package domain.pokemon;
 
 public class Squartle extends Pokemon {
     public Squartle(String nick, int cp, int hp) {
